@@ -296,3 +296,4 @@ int object_read(const ObjectID *id, ObjectType *type_out, void **data_out, size_
 }
 // object module step 1
 // object module step 2
+// object module step 3

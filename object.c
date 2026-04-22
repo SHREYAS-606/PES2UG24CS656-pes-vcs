@@ -276,7 +276,6 @@ int object_read(const ObjectID *id, ObjectType *type_out, void **data_out, size_
         free(buf);
         return -1;
     }
-
     void *out = malloc(parsed_size);
     if (!out && parsed_size > 0) {
         free(header);
@@ -295,3 +294,4 @@ int object_read(const ObjectID *id, ObjectType *type_out, void **data_out, size_
     free(buf);
     return 0;
 }
+// object module step 1

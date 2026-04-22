@@ -261,3 +261,4 @@ int head_update(const ObjectID *new_commit) {
 }
 // step 1
 // step 2
+// step 3

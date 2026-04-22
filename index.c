@@ -356,3 +356,4 @@ int index_add(Index *index, const char *path) {
 }
 // step 1
 // step 2
+// step 3
